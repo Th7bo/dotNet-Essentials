@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\12400247\\OneDrive - PXL\\Documenten\\CSharp\\oefeningen\\Oef2_6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA295E32-4C0B-4574-883D-ACAA6B1988CA}|Oef2_6.csproj|c:\\users\\12400247\\onedrive - pxl\\documenten\\csharp\\oefeningen\\oef2_6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA295E32-4C0B-4574-883D-ACAA6B1988CA}|Oef2_6.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA295E32-4C0B-4574-883D-ACAA6B1988CA}|Oef2_6.csproj|c:\\users\\12400247\\onedrive - pxl\\documenten\\csharp\\oefeningen\\oef2_6\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EA295E32-4C0B-4574-883D-ACAA6B1988CA}|Oef2_6.csproj|solutionrelative:mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA295E32-4C0B-4574-883D-ACAA6B1988CA}|Oef2_6.csproj|c:\\users\\12400247\\onedrive - pxl\\documenten\\csharp\\oefeningen\\oef2_6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA295E32-4C0B-4574-883D-ACAA6B1988CA}|Oef2_6.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\12400247\\OneDrive - PXL\\Documenten\\CSharp\\oefeningen\\Oef2_6\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\12400247\\OneDrive - PXL\\Documenten\\CSharp\\oefeningen\\Oef2_6\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-11T09:19:25.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\12400247\\OneDrive - PXL\\Documenten\\CSharp\\oefeningen\\Oef2_6\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\12400247\\OneDrive - PXL\\Documenten\\CSharp\\oefeningen\\Oef2_6\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T09:19:25.054Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "b3122f29-a880-42ad-9608-7a5c3aa8c58f",
+        "Display": 0,
+        "X": 20,
+        "Y": 84,
+        "Width": 800,
+        "Height": 600,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\12400247\\OneDrive - PXL\\Documenten\\CSharp\\oefeningen\\Oef2_6\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\12400247\\OneDrive - PXL\\Documenten\\CSharp\\oefeningen\\Oef2_6\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T11:49:48.928Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
