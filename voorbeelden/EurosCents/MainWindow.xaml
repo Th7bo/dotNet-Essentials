@@ -1,0 +1,18 @@
+﻿<Window x:Class="EurosCents.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EurosCents"
+        mc:Ignorable="d"
+        Title="Opgave euros and eurocents" Height="400" Width="800">
+    <Grid>
+        <TextBox Name="centsTextBox" HorizontalAlignment="Left" Height="50" Margin="60,60,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="270"/>
+        <TextBlock HorizontalAlignment="Center" Height="30" Margin="0,70,0,0" TextWrapping="Wrap" Text="is" VerticalAlignment="Top" Width="40"/>
+        <Label Content="Input _cents"  HorizontalAlignment="Left" Height="40" Margin="60,160,0,0" VerticalAlignment="Top" Width="250"
+               Target="{Binding ElementName=centsTextBox}"/>
+        <Label Name="result1Label" Background="LightBlue" HorizontalAlignment="Left" Height="50" Margin="460,60,0,0" VerticalAlignment="Top" Width="250"/>
+        <Label Name="result2Label" Background="LightBlue" HorizontalAlignment="Left" Height="50" Margin="460,160,0,0" VerticalAlignment="Top" Width="250"/>
+        <Button Content="Calculate" Name="calculateButton" HorizontalAlignment="Left" Height="60" Margin="60,260,0,0" VerticalAlignment="Top" Width="270" Click="calculateButton_Click" />
+    </Grid>
+</Window>
