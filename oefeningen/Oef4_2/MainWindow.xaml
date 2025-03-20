@@ -1,0 +1,31 @@
+﻿<Window x:Class="Oef4_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oef4_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Name="radiusLabel" Content="The radius of the circle" HorizontalAlignment="Left" Margin="156,102,0,0" VerticalAlignment="Top" Height="34" Width="167"/>
+        <TextBox Name="radiusTextBox" HorizontalAlignment="Left" Margin="476,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="137" Height="24" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.45"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button Name="computeButton" Content="Compute" HorizontalAlignment="Left" Margin="414,124,0,0" VerticalAlignment="Top" Height="23" Width="202" Click="computeButton_Click"/>
+        <Label Content="Circumference" Background="Yellow" HorizontalAlignment="Left" Margin="269,191,0,0" VerticalAlignment="Top" Height="26" Width="90"/>
+        <Label Content="Area"          Background="Yellow" HorizontalAlignment="Left" Margin="324,255,0,0" VerticalAlignment="Top" Height="27" Width="35"/>
+        <Label Content="Volume"        Background="Yellow" HorizontalAlignment="Left" Margin="308,309,0,0" VerticalAlignment="Top" Height="26" Width="51"/>
+        
+        <Label Name="circumferenceLabel" Content="" Background="CornflowerBlue"  HorizontalAlignment="Left" Margin="414,191,0,0" VerticalAlignment="Top" Height="26" Width="202"/>
+        <Label Name="areaLabel" Content="" Background="CornflowerBlue" HorizontalAlignment="Left" Margin="414,256,0,0" VerticalAlignment="Top" Height="26" Width="202"/>
+        <Label Name="volumeLabel" Content="" Background="CornflowerBlue" HorizontalAlignment="Left" Margin="414,309,0,0" VerticalAlignment="Top" Height="26" Width="202"/>
+
+    </Grid>
+</Window>
