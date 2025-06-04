@@ -1,0 +1,35 @@
+﻿<Window x:Class="DominationGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DominationGame"
+        mc:Ignorable="d"
+        Title="Domination Game" Height="600" Width="800">
+    <Grid Background="#E5D0D0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="Start A Game" Name="startGameMenuItem" Click="StartGameMenuItem_Click"/>
+            <MenuItem Header="Moves" Name="movesMenuItem" Click="MovesMenuItem_Click" IsEnabled="False"/>
+            <MenuItem Header="Exit" Click="ExitMenuItem_Click"/>
+        </Menu>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border BorderBrush="Gray" BorderThickness="2" Margin="20" Background="White">
+                <Canvas Name="boardCanvas" Width="480" Height="480" Background="White"/>
+            </Border>
+            <StackPanel Grid.Column="1" Margin="20" VerticalAlignment="Top">
+                <Label Name="playerTurnLabel" Content="Red player's turn." FontWeight="Bold"/>
+                <Label Name="xCoordLabel" Content="X Coordinate"/>
+                <Label Name="yCoordLabel" Content="Y Coordinate"/>
+                <Label Name="cellLabel" Content="(row, col)"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
